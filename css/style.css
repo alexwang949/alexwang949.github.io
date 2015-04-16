@@ -67,13 +67,37 @@ html {
 	display: inline-block;
 }
 
-.content h1 {
-	text-align: center;
+.home-section h1 {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 9em;
 	font-size: 2em;
 	margin: auto;
-	padding-top: 17em;
 	color: #ff7e12;
 }
+
+.home-section #bracket-open {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	display: block;
+	font-size: 2em;
+	color: #2f2f2f;
+}
+
+.home-section #bracket-close {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	display: block;
+	font-size: 2em;
+	color: #2f2f2f;
+}
+
 
 .content div {
 	height: 70em;
