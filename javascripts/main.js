@@ -44,6 +44,11 @@ window.onload = function() {
             lastScrollTop = st;
 
         };
+
+            // setTimeout(function() {
+            //     $('.content .home-section').addClass('zoomout');
+            // }, 1000);
+        
    
 };
 
