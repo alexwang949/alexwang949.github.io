@@ -44,10 +44,10 @@ window.onload = function() {
             lastScrollTop = st;
 
         };
-
-            // setTimeout(function() {
-            //     $('.content .home-section').addClass('zoomout');
-            // }, 1000);
+   
+            setTimeout(function() {
+                $('.home-section .home-background').addClass('zoomout');
+            }, 500);
         
    
 };
