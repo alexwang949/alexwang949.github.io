@@ -45,11 +45,17 @@ window.onload = function() {
 
         };
    
-            setTimeout(function() {
-                $('.home-section .home-background').addClass('zoomout');
-            }, 500);
+            // setTimeout(function() {
+            //     $('.home-section .home-background').addClass('zoomout');
+            // }, 500);
         
-   
+        $('.content').mouseover(function() {
+             $('.home-section .home-background').removeClass('zoomin').addClass('zoomout');    
+        });
+
+        $('.nav-div').mouseover(function() {
+            $('.home-section .home-background').removeClass('zoomout').addClass('zoomin');
+        })
 };
 
 

@@ -27,7 +27,7 @@ html {
 }
 
 .nav-div .button-wrap:hover {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0,0,0,.3);
 }
 
 .nav-up {
@@ -41,12 +41,18 @@ html {
 	top: 0;	
 }
 
-.transp {
-	position: absolute;
-	background-color: black;
-	opacity: .5;
+.opacity {
+	opacity: .7;
 	filter:alpha(opacity=70);  
     -moz-opacity:0.7; 
+}
+
+.transp {
+	position: absolute;
+	background-color: rgba(0,0,0,1);
+/*	opacity: .7;
+	filter:alpha(opacity=70);  
+    -moz-opacity:0.7; */
 	z-index: -1;
 	top: 0;
 	left: 0;
@@ -78,27 +84,31 @@ html {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background-image: url("../images/blurr-lights.jpg");
+	background-image: url("../images/building.jpg");
 	overflow: hidden;
 	background-repeat: no-repeat;
 	background-size: cover;
 	transform: scale(1);
-	transition: all 4s ease-in;
+	transition: all 2s ease-in;
 	overflow: hidden;
 	z-index: -1;
 }
 
 .home-background.zoomout {
-	transform: scale(1.16);
+	transform: scale(1) translate(-40, 30px);
 }
 
-#texture-overlay {
+.home-background.zoomin {
+	transform: scale(1.12) translate(40px, -30px);
+}
+
+#home-texture-overlay {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background-image: url("../images/diagonal-noise.png");
+	background-image: url("../images/dark-tire.png");
 	background-repeat: repeat;
-	opacity: .1;
+	z-index: 3;
 }
 
 .home-section .banner {
@@ -108,6 +118,8 @@ html {
 	position: absolute;
 	left: 40%;
 	border: none;
+	display: block;
+	z-index: 5;
 }
 
 #sub-banner {
@@ -118,6 +130,7 @@ html {
 	position: absolute;
 	left: 40%;
 	top: 50%;
+	z-index: 5;
 }
 
 
@@ -163,10 +176,16 @@ html {
 }
 
 .about-section {
-	background-image: url("#");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: rgba(50,50,50,1);
+}
 
+#about-texture-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/textured-stripes.png");
+	background-repeat: repeat;
+	border: 0;
 }
 
 .content .portfolio-section {
@@ -179,4 +198,7 @@ html {
 	background-size: cover;
 	position: relative;
 }
+
+
+
 
