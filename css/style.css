@@ -27,7 +27,7 @@ html {
 }
 
 .nav-div .button-wrap:hover {
-	background-color: rgba(0,0,0,.3);
+	background-color: rgba(30,30,30,.7);
 }
 
 .nav-up {
@@ -60,13 +60,46 @@ html {
 	height: 100%;
 }
 
-.content div {
+.section-div {
 	height: 62em;
 	width: 100%;
 	border-width: 0 0 10px 0;
 	border-color: black;
 	border-style: solid;
 }
+
+.section-title {
+	text-align: center;
+	font-size: 5em;
+	padding-top: 1em;
+}
+
+#rotate-down {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	display: block;
+}
+
+#rotate-up {
+	transform: rotate(0deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	display: block;
+}
+
+
+/*.content div {
+	height: 62em;
+	width: 100%;
+	border-width: 0 0 10px 0;
+	border-color: black;
+	border-style: solid;
+}*/
 
 .home-section {
 	display: block;
@@ -114,7 +147,7 @@ html {
 .home-section .banner {
 	width: 20em;
 	height: 50%;
-	background-color: rgba(51,51,51,1);
+	background-color: rgba(47,47,47,1);
 	position: absolute;
 	left: 40%;
 	border: none;
@@ -131,6 +164,7 @@ html {
 	left: 40%;
 	top: 50%;
 	z-index: 5;
+	height: 35em;
 }
 
 
@@ -177,20 +211,30 @@ html {
 
 .about-section {
 	background-color: rgba(50,50,50,1);
+	position: relative;
 }
 
 #about-texture-overlay {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background-image: url("../images/textured-stripes.png");
+	background-image: url("../images/black-twill.png");
 	background-repeat: repeat;
 	border: 0;
 }
 
 .content .portfolio-section {
 	background-color: gray;
+	position: relative;
 }
+
+#portfolio-section-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
 
 .content .contact-section {
 	background-image: url("../images/satellite.jpg");
