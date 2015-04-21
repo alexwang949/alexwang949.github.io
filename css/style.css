@@ -70,8 +70,12 @@ html {
 
 .section-title {
 	text-align: center;
-	font-size: 5em;
+	font-size: 4em;
 	padding-top: 1em;
+	color: #fdb200;
+	display: block;
+	position: absolute;
+	left: 10.5em;
 }
 
 #rotate-down {
@@ -210,8 +214,17 @@ html {
 }
 
 .about-section {
-	background-color: rgba(50,50,50,1);
+/*	background-color: rgba(50,50,50,1);
+	position: relative;*/
 	position: relative;
+}
+
+.about-section-background {
+	background-color: rgba(50,50,50,1);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
 }
 
 #about-texture-overlay {
@@ -221,7 +234,44 @@ html {
 	background-image: url("../images/black-twill.png");
 	background-repeat: repeat;
 	border: 0;
+	z-index: 0;
 }
+
+.about-section .about-text-box {
+	line-height: 1.5em;
+	color: white;
+	font-family: 'Coda', cursive;
+	z-index: 10;
+	opacity: 1;
+	position: absolute;
+	font-size: 3em;
+	top: 6em;
+	left: 8em;
+	width: 12em;
+}
+
+.about-text-box p {
+	position: relative;
+	left: 20%;
+}
+
+.about-text-box .ul {
+	left: 15%;
+	position: relative;
+}
+/*
+.ul #carrot-color {
+	color: #7cf955;
+}*/
+
+ .carrot-color {
+	color: #7cf955;	
+}
+
+.about-text-box p {
+	text-indent: 1em;
+}
+
 
 .content .portfolio-section {
 	background-color: gray;
