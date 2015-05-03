@@ -55,7 +55,8 @@ window.onload = function() {
 
         $('.nav-div').mouseover(function() {
             $('.home-section .home-background').removeClass('zoomout').addClass('zoomin');
-        })
+        });
+
 };
 
 
