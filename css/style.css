@@ -2,6 +2,7 @@
 html {
 }
 
+
 #icon {
 	font-size: 14em;
 	text-align: center;
@@ -21,7 +22,7 @@ html {
 	font-family: 'Arial';
 	width: 100%;
 	position: fixed;
-	transition: top 0.1s ease-in-out;
+	transition: top .05s ease-in-out;
 	top: 0;
 	overflow: hidden;
 	z-index: 100;
@@ -39,7 +40,8 @@ html {
 }
 
 .nav-div .button-wrap:hover {
-	background-color: rgba(30,30,30,.7);
+	background-color: rgba(40,40,40,.7);
+	z-index: 200;
 }
 
 .nav-up {
@@ -83,7 +85,7 @@ html {
 	font-size: 4em;
 	padding-top: 1em;
 	color: #fdb200;
-	z-index: 100;
+	z-index: 30;
 
 }
 
@@ -231,7 +233,7 @@ html {
 }
 
 #about-text-title {
-	z-index: 100;
+	z-index: 30;
 	position: relative;
 }
 
@@ -272,8 +274,9 @@ html {
 }
 
 .about-text-box .ul {
-	left: 15%;
+	left: 10%;
 	position: relative;
+	font-size: 2em;
 }
 /*
 .ul #carrot-color {
@@ -302,14 +305,37 @@ html {
 	border: 0;
 }
 
-
 .content .contact-section {
 	background-image: url("../images/satellite.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	overflow: hidden;
 }
 
+#email {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fdb200;
+	font-size: 3em;
+	position: absolute;
+	top: 220px;
+	left: 800px;
+	display: block;
+	transform: rotate(-60deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
 
 
 
