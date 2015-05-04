@@ -109,25 +109,17 @@ html {
 	left: -8px;
 }
 
+.content {
+	overflow: hidden;
+}
 
-/*.content div {
-	height: 62em;
-	width: 100%;
-	border-width: 0 0 10px 0;
-	border-color: black;
-	border-style: solid;
-}*/
 
 .home-section {
 	display: block;
 	text-align: center;
 	overflow: hidden;
-/*	background-image: url("../images/blurr-lights.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;*/
 	position: relative;
-/*	transform: scale(1);
-	transition: all 4s ease-in;*/
+
 }
 
 .home-section .home-background {
