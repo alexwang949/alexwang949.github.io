@@ -14,7 +14,7 @@ html {
 }
 
 #icon:hover {
-	color: gray;
+	opacity: .8;
 	text-decoration: none;
 }
 
@@ -90,6 +90,7 @@ html {
 }
 
 #rotate-down {
+	text-shadow: 12px -7px 8px black;
 	transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
@@ -99,6 +100,7 @@ html {
 }
 
 #rotate-up {
+	text-shadow: -12px 7px 8px black;
 	transform: rotate(0deg);
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
@@ -219,14 +221,14 @@ html {
 }
 
 .about-section {
-/*	text-align: center;
-*/	position: relative;
+	position: relative;
 
 }
 
 #about-text-title {
 	z-index: 30;
 	position: relative;
+	text-shadow: 2px 2px 8px black;
 }
 
 .about-section-background {
@@ -269,6 +271,7 @@ html {
 	left: 10%;
 	position: relative;
 	font-size: 2em;
+	text-shadow: 2px 2px 8px black;
 }
 /*
 .ul #carrot-color {
@@ -318,16 +321,33 @@ html {
 	-moz-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
+	background-color: black;
 }
 
-.circle {
+.circle-1 {
 	width: 100px;
 	height: 100px;
-	background: red;
+	background: #fdb200;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+	position: relative;
+	left: 70em;
+	top: 34em;
 }
+
+.circle-2 {
+	width: 50px;
+	height: 50px;
+	background: #fdb200;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	position: relative;
+	left: 76em;
+	top: 26em;
+}
+
 
 
 
