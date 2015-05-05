@@ -301,12 +301,21 @@ html {
 
 .github-bar {
 	display: block;
-	width: 45%;
-	height: 100px;
+	width: 20%;
+	height: 200px;
 	background-color: gray;
 	position: relative;
-	top: -270px;
+	left: 45%;
+	top: -30px;
 	z-index: -1;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+.ruby {
+	font-size: 2em;
+	margin-top: 20px;
 }
 .work-section img {
 	display: block;
