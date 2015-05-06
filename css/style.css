@@ -95,6 +95,7 @@ html {
 	display: block;
 	position: relative;
 	left: -8px;
+	top: 8px;
 }
 
 .content {
@@ -246,7 +247,7 @@ html {
 	margin: 0 auto;
 /*	width: 12em;
 */	position: relative;
-	left: 4em;
+	left: 3em;
 }
 
 .about-text-box p {
@@ -260,13 +261,20 @@ html {
 	font-size: 2em;
 	text-shadow: 2px 2px 8px black;
 }
+
+.li-content {
+	padding: 0 20px;
+}
 /*
 .ul #carrot-color {
 	color: #7cf955;
 }*/
 
  .carrot-color {
-	color: #7cf955;	
+	color: #fdb200;
+
+/*	color: #7cf955;	
+*/
 }
 
 
@@ -299,24 +307,106 @@ html {
 	text-decoration: none;
 }
 
-.github-bar {
+.ruby-bar {
+	box-shadow: 10px 10px 5px #888888;
 	display: block;
-	width: 20%;
-	height: 200px;
-	background-color: gray;
+	width: 10%;
+	height: 180px;
+	background-color: rgba(224, 224, 224, 1);
 	position: relative;
 	left: 45%;
-	top: -30px;
+	top: 110px;
 	z-index: -1;
-	color: white;
+	color: black;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
+	z-index: -1;
 }
 
 .ruby {
 	font-size: 2em;
 	margin-top: 20px;
 }
+
+.js-bar {
+	box-shadow: 10px 10px 5px #888888;
+	background-color: rgba(224, 224, 224, 1);
+	display: block;
+	width: 15%;
+	height: 240px;
+	background-color: black;
+	position: relative;
+	left: 33%;
+	top: -132px;
+	z-index: -2;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;	
+}
+
+.js {
+	font-size: 2.5em;
+	padding-top: 10px;
+}
+
+.css-bar {
+	box-shadow: 10px 10px 5px #888888;
+	display: block;
+	width: 11%;
+	height: 400px;
+	background-color: rgba(96, 96, 96, 1);
+	position: relative;
+	left: 17%;
+	top: -532px;
+	z-index: -3;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;		
+}
+
+.css {
+	padding: 10px;
+}
+
+.jquery-bar {
+	box-shadow: 10px 10px 5px #888888;
+	display: block;
+	width: 8%;
+	height: 330px;
+	background-color: rgba(160, 160, 160, 1);
+	position: relative;
+	left: 42%;
+	top: -920px;
+	z-index: -3;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;	
+}
+
+.jquery {
+	padding: 10px;
+}
+
+.html-bar {
+	box-shadow: 10px 10px 5px #888888;
+	display: block;
+	width: 15%;
+	height: 500px;
+/*	background-color: rgba(64, 64, 64, 1);
+*/	background-color: black;
+	position: relative;
+	left: 3%;
+	top: -1375px;
+	z-index: -4;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;		
+}
+
+.html {
+	padding: 5px;
+}
+
 .work-section img {
 	display: block;
 	margin: 7em auto;
