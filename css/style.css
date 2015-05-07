@@ -95,7 +95,7 @@ html {
 	-o-transform: rotate(-90deg);
 	display: block;
 	position: relative;
-	left: -8px;
+	left: -9px;
 	top: 8px;
 }
 
@@ -432,19 +432,30 @@ html {
 .content .contact-section {
 	background-image: url("../images/satellite.jpg");
 	background-repeat: no-repeat;
-	background-size: 130%;
-	background-position: -150px -20px;
+	/*background-size: 130%;*/
+	background-size: cover;
+	/*background-position: -150px -20px;*/
 	position: relative;
 	overflow: hidden;
 }
+
+/*.contact-wrapper {
+	height: 90%;
+	width: 80%;
+	margin-left: 20%;
+	background-color: white;
+	position: relative;
+	overflow: hidden;
+	opacity: .8;
+}*/
 
 #email {
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #fdb200;
 	font-size: 3em;
 	position: absolute;
-	top: 220px;
-	left: 650px;
+	top: 200px;
+	left: 740px;
 	display: block;
 	transform: rotate(-60deg);
 	-webkit-transform: rotate(-30deg);
@@ -461,9 +472,9 @@ html {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	position: relative;
-	left: 62em;
-	top: 34em;
+	position: absolute;
+	margin-left: 64em;
+	top: 33em;
 }
 
 .circle-small {
@@ -474,9 +485,9 @@ html {
 	-moz-border-radius: 25px;
 	-webkit-border-radius: 25px;
 	border-radius: 25px;
-	position: relative;
-	left: 68em;
-	top: 26em;
+	position: absolute;
+	left: 70em;
+	top: 31em;
 }
 
 
