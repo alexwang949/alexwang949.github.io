@@ -69,7 +69,7 @@ html {
 .section-title {
 	font-family: 'Sarpanch', sans-serif;
 	text-align: center;
-	font-size: 4em;
+	font-size: 3em;
 	padding-top: 1em;
 	color: #fdb200;
 	z-index: 30;
@@ -296,7 +296,7 @@ html {
 */	position: relative;
 /*	left: 3em;
 */
-	width: 80%;
+	width: 60%;
 }
 
 .about-text-box p {
@@ -305,9 +305,9 @@ html {
 }
 
 .about-text-box .ul {
-	left: 10%;
+	left: 14%;
 	position: relative;
-	font-size: 2em;
+	font-size: 1em;
 	text-shadow: 2px 2px 8px black;
 }
 
@@ -364,7 +364,7 @@ html {
 	background-color: rgba(224, 224, 224, 1);
 	position: relative;
 	left: 69%;
-	top: -20px;
+	top: 10px;
 	z-index: -1;
 	color: black;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -386,7 +386,7 @@ html {
 	background-color: black;
 	position: relative;
 	left: 73%;
-	top: -242px;
+	top: -212px;
 	z-index: -2;
 	color: white;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -477,8 +477,9 @@ html {
 	background-image: url("../images/satellite.jpg");
 	background-repeat: no-repeat;
 	/*background-size: 130%;*/
-	background-size: cover;
+	background-size: 90em;
 	/*background-position: -150px -20px;*/
+	background-position: -110px -90px;
 	position: relative;
 	overflow: hidden;
 }
@@ -498,8 +499,8 @@ html {
 	color: #fdb200;
 	font-size: 3em;
 	position: absolute;
-	top: 160px;
-	left: 630px;
+	top: 110px;
+	left: 600px;
 	display: block;
 	transform: rotate(-60deg);
 	-webkit-transform: rotate(-30deg);
@@ -507,6 +508,35 @@ html {
 	-ms-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
 	background-color: black;
+}
+
+#resume {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 3em;
+	position: absolute;
+	top: 410px;
+	left: 900px;
+	display: block;
+	transform: rotate(-60deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}
+
+#resume a {
+	color: #fdb200;
+	text-decoration: none;
+	background-color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	padding: 5px;
+}
+
+#resume a:hover {
+	background-color: #fdb200;
+	color: black;
+ 
 }
 
 .circle-large {
@@ -517,7 +547,7 @@ html {
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	position: absolute;
-	margin-left: 55em;
+	margin-left: 56em;
 	top: 28em;
 }
 
@@ -531,8 +561,10 @@ html {
 	border-radius: 25px;
 	position: absolute;
 	left: 62em;
-	top: 2em;
+	top: 25em;
 }
+
+https://drive.google.com/file/d/0B9cw8ST4rA-3V1UySndRRjNVSk0/view?usp=sharing
 
 
 
