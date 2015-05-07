@@ -176,9 +176,49 @@ html {
 	color: #fdb200;
 }
 
-.home-section #logo {
+.banner h1 {
+	position: relative;
+	top: -120px;
+	left: 15px;
+}
+
+.home-section #initials {
+	font-family: 'Orbitron', sans-serif;
 	transform: rotate(-90deg);
 	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	display: block;
+	font-size: 2em;
+	color: #fdb200;
+/*	font-family: 'Sarpanch', sans-serif;
+*/	/*font-weight: 800;*/
+	position: relative;
+	left: -5px;
+}
+
+#initials-bracket-open {
+		font-family: 'Orbitron', sans-serif;
+
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	display: block;
+	font-size: 3em;
+	color: #fdb200;
+	font-family: 'Sarpanch', sans-serif;
+	font-weight: 200;
+	padding: 5px;
+}
+
+#initials-bracket-close {
+		font-family: 'Orbitron', sans-serif;
+
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
 	-o-transform: rotate(-90deg);
@@ -186,7 +226,8 @@ html {
 	font-size: 3em;
 	color: #fdb200;
 	font-family: 'Sarpanch', sans-serif;
-	font-weight: 800;
+	font-weight: 200;
+	padding: 5px;
 }
 
 .banner #web-dev {
@@ -195,12 +236,12 @@ html {
 	left: 5px;
 	margin: 0 auto;
 	position: relative;
-	top: 8.5em;
+	top: -6.5em;
 	text-shadow: 2px 6px 8px black;
 	z-index: 50;
-	font-size: 12px;
-	font-weight: 200;
-}
+	font-size: 1em;
+/*	font-weight: 600;
+*/}
 
 
 .home-section #bracket-close {
@@ -311,7 +352,7 @@ html {
 }
 
 #icon:hover {
-	opacity: .8;
+	color: gray;
 	text-decoration: none;
 }
 
