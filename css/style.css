@@ -58,7 +58,7 @@ html {
 }
 
 .section-div {
-	height: 58em;
+	height: 50em;
 	width: 100%;
 	border-width: 0 0 5px 0;
 	border-color: black;
@@ -144,7 +144,7 @@ html {
 }
 
 .home-section .banner {
-	width: 20em;
+	width: 15em;
 	height: 50%;
 	background-color: rgba(47,47,47,1);
 	position: relative;
@@ -156,7 +156,7 @@ html {
 }
 
 #sub-banner {
-	width: 20em;
+	width: 15em;
 	border: none;
 	background-color: rgba(20, 20, 20, .7);
 	display: block;
@@ -197,6 +197,9 @@ html {
 	position: relative;
 	top: 8.5em;
 	text-shadow: 2px 6px 8px black;
+	z-index: 50;
+	font-size: 12px;
+	font-weight: 200;
 }
 
 
@@ -318,7 +321,7 @@ html {
 	background-color: rgba(224, 224, 224, 1);
 	position: relative;
 	left: 69%;
-	top: 140px;
+	top: -20px;
 	z-index: -1;
 	color: black;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -340,7 +343,7 @@ html {
 	background-color: black;
 	position: relative;
 	left: 73%;
-	top: -102px;
+	top: -242px;
 	z-index: -2;
 	color: white;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -454,8 +457,8 @@ html {
 	color: #fdb200;
 	font-size: 3em;
 	position: absolute;
-	top: 200px;
-	left: 740px;
+	top: 160px;
+	left: 630px;
 	display: block;
 	transform: rotate(-60deg);
 	-webkit-transform: rotate(-30deg);
@@ -473,8 +476,8 @@ html {
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	position: absolute;
-	margin-left: 64em;
-	top: 33em;
+	margin-left: 55em;
+	top: 28em;
 }
 
 .circle-small {
@@ -486,8 +489,8 @@ html {
 	-webkit-border-radius: 25px;
 	border-radius: 25px;
 	position: absolute;
-	left: 70em;
-	top: 31em;
+	left: 62em;
+	top: 26em;
 }
 
 
