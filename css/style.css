@@ -254,7 +254,9 @@ html {
 /*	width: 12em;
 */	position: relative;
 /*	left: 3em;
-*/}
+*/
+	width: 80%;
+}
 
 .about-text-box p {
 	position: relative;
