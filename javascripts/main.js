@@ -38,7 +38,7 @@ window.onload = function() {
             if (st > lastScrollTop && st > navBarHeight) {
                 $('.nav-div').removeClass('nav-down').addClass('nav-up');
             } else {
-                    $('.nav-div').removeClass('nav-up').addClass('nav-down');
+                $('.nav-div').removeClass('nav-up').addClass('nav-down');
             };
 
             lastScrollTop = st;

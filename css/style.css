@@ -253,8 +253,8 @@ html {
 	margin: 0 auto;
 /*	width: 12em;
 */	position: relative;
-	left: 3em;
-}
+/*	left: 3em;
+*/}
 
 .about-text-box p {
 	position: relative;
@@ -415,15 +415,13 @@ html {
 	padding: 5px;
 }
 
-.work-section {
 
-}
 
-.work-section img {
+/*.work-section img {
 	display: block;
 	margin: 7em auto;
 }
-
+*/
 
 #work-section-overlay {
 	position: absolute;
@@ -490,7 +488,7 @@ html {
 	border-radius: 25px;
 	position: absolute;
 	left: 62em;
-	top: 26em;
+	top: 2em;
 }
 
 
