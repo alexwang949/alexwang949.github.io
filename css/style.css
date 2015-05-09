@@ -291,11 +291,12 @@ html {
 	z-index: 10;
 	opacity: 1;
 	font-size: 2em;
-	margin: 2em auto;
+	margin: 3em auto;
 /*	width: 12em;
 */	position: relative;
 /*	left: 3em;
 */
+	box-shadow: 10px 10px 10px gray;
 	background-color: black;
 	width: 11.5em;
 	padding: .2em .1em .2em .3em;
@@ -366,7 +367,7 @@ html {
 	background-color: rgba(224, 224, 224, 1);
 	position: relative;
 	left: 69%;
-	top: 10px;
+	margin-top: 170px;
 	z-index: -1;
 	color: black;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -482,8 +483,19 @@ html {
 	background-color: gray;
 	display: block;
 	position: absolute;
-	left: 20em;
-	top: 4em;
+	left: 15em;
+	top: 5em;
+}
+.hanger-2 {
+	box-shadow: -10px 10px 5px #888888;
+
+	width: 2px;
+	height: 12em;
+	background-color: gray;
+	display: block;
+	position: absolute;
+	left: 26em;
+	top: 5em;
 }
 
 .milano-img {
