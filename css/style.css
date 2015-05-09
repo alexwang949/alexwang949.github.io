@@ -498,6 +498,18 @@ html {
 	top: 5em;
 }
 
+.clip {
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-color: black;
+}
+
+.clip-1 {
+	position: absolute;
+	margin-left: 3em;
+}
+
 .milano-img {
 	box-shadow: -10px 10px 5px #888888;
 	width: 17.2em;
