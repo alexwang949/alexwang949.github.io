@@ -478,23 +478,23 @@ html {
 .hanger-1 {
 	box-shadow: -10px 10px 5px #888888;
 	width: 1px;
-	height: 14em;
+	height: 18em;
 	background-color: black;
 	display: block;
 	position: absolute;
-	left: 14.9em;
-	top: 5em;
+	left: 14.2em;
+	top: 1em;
 }
 .hanger-2 {
 	box-shadow: -10px 10px 5px #888888;
 
 	width: .5px;
-	height: 14em;
+	height: 18em;
 	background-color: black;
 	display: block;
 	position: absolute;
 	left: 27em;
-	top: 5em;
+	top: 1em;
 }
 
 .clip {
@@ -507,7 +507,7 @@ html {
 
 .clip-1 {
 	position: absolute;
-	left: 14em;
+	left: 13.3em;
 	top: 16.5em;
 	z-index: 100;
 }
@@ -531,6 +531,49 @@ html {
 	margin-top: 16.8em;
 	background-color: gray;
 	position: relative;
+}
+
+.milano-content {
+	width: 35%;
+	height: 29%;
+	left: 38.9em;
+	top: 27em;
+	position: absolute;
+	background-color: #292a2b;
+}
+
+.milano-content ul {
+	color: white;
+	padding: 5% 2% 4% 10%;
+	font-size: 140%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	line-height: 140%;
+/*	text-indent: 8px;
+*/}
+
+.milano-header {
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 35%;
+	height: 10%;
+	position: absolute;
+	left: 12.95em;
+	background-color: black;
+	top: 6.1em;
+	color: white;
+	font-size: 3em;
+	padding-top: 12px;
+	text-align: center;
+}
+
+#milano-header-span {
+}
+
+.milano-header h3 {
+/*	margin: 0 auto;
+	display: block;
+	width: 5em;*/
+	vertical-align: middle;
+	display: inline-block;
 }
 
 .content .contact-section {
