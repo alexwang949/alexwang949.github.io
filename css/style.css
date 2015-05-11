@@ -569,12 +569,13 @@ html {
 }
 
 .milano-content {
+	box-shadow: -10px 10px 5px #888888;
 	width: 28em;
 	height: 29%;
 	left: 39.3em;
 	top: 27em;
 	position: absolute;
-	background-color: black;
+	background-color: #292a2b;
 }
 
 .milano-content ul {
@@ -587,6 +588,7 @@ html {
 */}
 
 .milano-header {
+	box-shadow: -10px 10px 5px #888888;
 	font-family: 'Open Sans Condensed', sans-serif;
 	width: 9.3em;
 	height: 10%;
